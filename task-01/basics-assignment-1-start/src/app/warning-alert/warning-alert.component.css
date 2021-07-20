@@ -1,0 +1,10 @@
+div {
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+h4 {
+    font-weight: bolder;
+}
