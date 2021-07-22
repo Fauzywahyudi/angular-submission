@@ -1,0 +1,6 @@
+<div class="form-group">
+    <label for="">Insert your Username</label>
+    <input type="text" class="form-control" [(ngModel)]="username" placeholder="Username">
+    <p>{{ username }}</p>
+    <button class="btn btn-primary" [disabled]="!isEnable()" (click)="click()">Send</button>
+</div>
